@@ -1,0 +1,63 @@
+{
+    "nav_button_home": {
+        "default": "Home",
+        "en": "Home",
+        "zh": "首页",
+        "fr": "Accueil"
+    },
+    "nav_button_portfolio": {
+        "default": "Portfolio",
+        "en": "Portfolio",
+        "zh": "作品集",
+        "fr": "Portfolio"
+    },
+    "nav_button_projects": {
+        "default": "Projects",
+        "en": "Projects",
+        "zh": "项目",
+        "fr": "Projets"
+    },
+    "nav_button_blog": {
+        "default": "Blog",
+        "en": "Blog",
+        "zh": "博客",
+        "fr": "Blog"
+    },
+    "nav_button_photography": {
+        "default": "Photography",
+        "en": "Photography",
+        "zh": "摄影",
+        "fr": "Photographie"
+    },
+    "nav_button_skills": {
+        "default": "Skills",
+        "en": "Skills",
+        "zh": "技能",
+        "fr": "Compétences"
+    },
+    "nav_button_contact": {
+        "default": "Contact",
+        "en": "Contact",
+        "zh": "联系",
+        "fr": "Contact"
+    },
+    "nav_button_github": {
+        "default": "GitHub",
+        "en": "GitHub",
+        "zh": "GitHub",
+        "fr": "GitHub"
+    },
+    "nav_button_resume": {
+        "default": "Resume",
+        "en": "Resume",
+        "zh": "简历",
+        "fr": "CV"
+    },
+    "nav_button_language": {
+        "default": "EN",
+        "en": "EN",
+        "zh": "中文",
+        "fr": "FR"
+    }
+
+}
