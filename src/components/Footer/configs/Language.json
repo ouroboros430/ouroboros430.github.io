@@ -115,5 +115,12 @@
         "en": "Building thoughtful products that bridge technology and humanity.",
         "zh": "用技术传递温度，以设计连接人心。",
         "fr": "Créer des produits pensés pour les humains, où la technologie rencontre l’émotion."
+    },
+
+    "location": {
+        "default" :"Shanghai",
+        "en": "Shanghai",
+        "zh": "上海",
+        "fr": "Shanghai"
     }
 }

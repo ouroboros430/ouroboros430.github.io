@@ -29,7 +29,7 @@ footer {
 }
 
 .footer-link:hover {
-    color: var(--bs-light);
+    color: #007bff;  /* Bootstrap 蓝色，在白色背景上清晰可见 */
     text-decoration: none;
 }
 
@@ -107,6 +107,7 @@ footer {
     .footer-social-link,
     .footer-description {
         font-size: 0.85rem;
+        color:#000000
     }
     
     .footer-social {
@@ -122,7 +123,6 @@ footer {
 
 /* Hover effects for better UX */
 .footer-links li:hover {
-    transform: translateX(5px);
     transition: transform 0.2s ease;
 }
 

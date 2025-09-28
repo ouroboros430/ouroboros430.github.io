@@ -2,97 +2,55 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
+import translations from './configs/Language.json';
 
 function Footer(Props) {
     const currentYear = new Date().getFullYear();
     const currentLanguage = Props.language
-    
-    // Footer translations
-    const translations = {
-        copyright: {
-            en: `© ${currentYear} HU Jiaming. All rights reserved.`,
-            zh: `© ${currentYear} 胡嘉明。保留所有权利。`
-        },
-        builtWith: {
-            en: 'Built with React & Bootstrap',
-            zh: '使用 React 和 Bootstrap 构建'
-        },
-        sections: {
-            quickLinks: {
-                en: 'Quick Links',
-                zh: '快速链接'
-            },
-            contact: {
-                en: 'Contact',
-                zh: '联系方式'
-            },
-            followMe: {
-                en: 'Follow Me',
-                zh: '关注我'
-            }
-        },
-        links: {
-            home: { en: 'Home', zh: '首页' },
-            about: { en: 'About', zh: '关于' },
-            portfolio: { en: 'Portfolio', zh: '作品集' },
-            blog: { en: 'Blog', zh: '博客' },
-            contact: { en: 'Contact', zh: '联系' }
-        },
-        contactInfo: {
-            email: 'hu.jiaming@example.com',
-            location: {
-                en: 'Location: Earth 🌍',
-                zh: '位置：地球 🌍'
-            }
-        },
-        socialLinks: {
-            github: 'GitHub',
-            linkedin: 'LinkedIn',
-            twitter: 'Twitter'
-        }
-    };
+    const emailAddress= "hu.jiaming@hotmail.com"
+
 
     return (
         <footer className="py-3"  >
             <Container>
-                <Row>
+                <Row className="py-0">
                     {/* Quick Links */}
-                    <Col md={3} className="mb-4">
+                    <Col md={3} className="mb-0">
                         <h5 className="footer-title mb-3">
-                            {translations.sections.quickLinks[currentLanguage]}
+                            {translations.quickLinks?.[currentLanguage] || "Quick Links"}
                         </h5>
                         <ul className="list-unstyled footer-links">
-                            <li><a href="#home" className="footer-link">{translations.links.home[currentLanguage]}</a></li>
-                            <li><a href="#about" className="footer-link">{translations.links.about[currentLanguage]}</a></li>
-                            <li><a href="#portfolio" className="footer-link">{translations.links.portfolio[currentLanguage]}</a></li>
-                            <li><a href="#blog" className="footer-link">{translations.links.blog[currentLanguage]}</a></li>
-                            <li><a href="#contact" className="footer-link">{translations.links.contact[currentLanguage]}</a></li>
+                            <li><a href="#home" className="footer-link">{translations.home?.[currentLanguage] || 'Home'}</a></li>
+                            <li><a href="#projects" className="footer-link">{translations.projects?.[currentLanguage] || 'Projects'}</a></li>
+                            <li><a href="#experience" className="footer-link">{translations.experience?.[currentLanguage] || 'Experience'}</a></li>
+                            <li><a href="#skills" className="footer-link">{translations.skills?.[currentLanguage] || 'Skills'}</a></li>
+                            <li><a href="#photography" className="footer-link">{translations.photography?.[currentLanguage] || 'Photography'}</a></li>
                         </ul>
                     </Col>
 
                     {/* Contact Info */}
-                    <Col md={3} className="mb-4">
+                    <Col md={3} className="mb-0">
                         <h5 className="footer-title mb-3">
-                            {translations.sections.contact[currentLanguage]}
+                            {translations.contact?.[currentLanguage] || "Contact"}
                         </h5>
                         <div className="footer-contact">
                             <p className="mb-2">
                                 <i className="fas fa-envelope me-2"></i>
-                                <a href={`mailto:${translations.contactInfo.email}`} className="footer-link">
-                                    {translations.contactInfo.email}
+                                <a href={`mailto:${emailAddress}`} className="footer-link">
+                                    {emailAddress}
                                 </a>
                             </p>
                             <p className="mb-2">
                                 <i className="fas fa-map-marker-alt me-2"></i>
-                                {translations.contactInfo.location[currentLanguage]}
+                                {translations.location[currentLanguage]}
                             </p>
                         </div>
                     </Col>
 
                     {/* Social Links */}
-                    <Col md={3} className="mb-4">
+                    <Col md={3} className="mb-0">
                         <h5 className="footer-title mb-3">
-                            {translations.sections.followMe[currentLanguage]}
+                            {translations.followMe[currentLanguage]}
                         </h5>
                         <div className="footer-social">
                             <a 
@@ -101,7 +59,7 @@ function Footer(Props) {
                                 rel="noopener noreferrer" 
                                 className="footer-social-link me-3"
                             >
-                                <i className="fab fa-github"></i> {translations.socialLinks.github}
+                                <i className="fab fa-github"></i> {translations.github[currentLanguage]}
                             </a>
                             <a 
                                 href="#linkedin" 
@@ -109,7 +67,7 @@ function Footer(Props) {
                                 rel="noopener noreferrer" 
                                 className="footer-social-link me-3"
                             >
-                                <i className="fab fa-linkedin"></i> {translations.socialLinks.linkedin}
+                                <i className="fab fa-linkedin"></i> {translations.linkedin[currentLanguage]}
                             </a>
                             <a 
                                 href="#twitter" 
@@ -117,32 +75,26 @@ function Footer(Props) {
                                 rel="noopener noreferrer" 
                                 className="footer-social-link"
                             >
-                                <i className="fab fa-twitter"></i> {translations.socialLinks.twitter}
+                                <i className="fab fa-twitter"></i> {translations.twitter[currentLanguage]}
                             </a>
                         </div>
                     </Col>
 
                     {/* About Me */}
-                    <Col md={3} className="mb-4">
+                    <Col md={3} className="mb-0">
                         <h5 className="footer-title mb-3">HU Jiaming</h5>
                         <p className="footer-description">
-                            {currentLanguage === 'en' 
-                                ? "Passionate developer creating amazing web experiences with modern technologies."
-                                : "热衷于使用现代技术创造出色网页体验的开发者。"
-                            }
-                        </p>
-                        <p className="footer-built-with">
-                            {translations.builtWith[currentLanguage]}
+                            {translations.description[currentLanguage]}
                         </p>
                     </Col>
                 </Row>
 
                 {/* Copyright */}
-                <hr className="footer-divider my-4" />
+                <hr className="footer-divider mt-0" />
                 <Row>
                     <Col className="text-center">
                         <p className="footer-copyright mb-0">
-                            © 2025
+                            © {currentYear} {translations.copyright[currentLanguage]}
                         </p>
                     </Col>
                 </Row>
