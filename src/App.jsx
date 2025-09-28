@@ -5,14 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Navigator from './components/Navigator/Navigator.jsx'
 import Footer from './components/Footer/Footer.jsx'
-import Home from './pages/Home.jsx'
-import Experience from './pages/Experience.jsx'
-import Projects from './pages/Projects.jsx'
-import Skills from './pages/Skills.jsx'
-import Blog from './pages/Blog.jsx'
-import Photography from './pages/Photography.jsx'
-import Contact from './pages/Contact.jsx'
-import Resume from './pages/Resume.jsx'
+import Home from './pages/home_page/home_page.jsx'
+import Experience from './pages/expericence_page/expericence_page.jsx'
+import Projects from './pages/projects_page/peojects_page.jsx'
+import Skills from './pages/skills_page/skills_page.jsx'
+import Blog from './pages/blog_page/blog_page.jsx'
+import Photography from './pages/photography_page/photography_page.jsx'
+import Contact from './pages/contact_page/contact_page.jsx'
+import Resume from './pages/resume_pages/resume_page.jsx'
 import configs from "./configs/configs.json"
 
 
