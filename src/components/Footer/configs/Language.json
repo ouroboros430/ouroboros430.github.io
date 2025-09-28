@@ -1,1 +1,119 @@
-{}
+{
+    "copyright": {
+        "default": "HU Jiaming. All rights reserved.",
+        "en": "HU Jiaming. All rights reserved.",
+        "zh": "HU Jiaming。保留所有权利。",
+        "fr": "HU Jiaming. Tous droits réservés."
+    },
+    "quickLinks": {
+        "default": "Quick Links",
+        "en": "Quick Links",
+        "zh": "快速链接",
+        "fr": "Liens rapides"
+    },
+
+    "home": {
+        "default": "Home",
+        "en": "Home",
+        "zh": "首页",
+        "fr": "Accueil"
+    },
+
+    "projects": {
+        "default": "Projects",
+        "en": "Projects",
+        "zh": "项目",
+        "fr": "Projets"
+    },
+
+    "experience": {
+        "default": "Experience",
+        "en": "Experience",
+        "zh": "经验",
+        "fr": "Expérience"
+    },
+
+    "skills": {
+        "default": "Skills",
+        "en": "Skills",
+        "zh": "技能",
+        "fr": "Compétences"
+    },
+
+    "photography": {
+        "default": "Photography",
+        "en": "Photography",
+        "zh": "摄影",
+        "fr": "Photographie"
+    },
+
+    "blog": {
+        "default": "Blog",
+        "en": "Blog",
+        "zh": "博客",
+        "fr": "Blog"
+    },
+
+    "contact": {
+        "default": "Contact",
+        "en": "Contact",
+        "zh": "联系",
+        "fr": "Contact"
+    },
+
+    "followMe": {
+        "default": "Follow Me",
+        "en": "Follow Me",
+        "zh": "关注我",
+        "fr": "Suivez-moi"
+    },
+
+    "github": {
+        "default": "GitHub",
+        "en": "GitHub",
+        "zh": "GitHub",
+        "fr": "GitHub"
+    },
+
+    "linkedin": {
+        "default": "LinkedIn",
+        "en": "LinkedIn",
+        "zh": "领英",
+        "fr": "LinkedIn"
+    },
+
+    "twitter": {
+        "default": "Twitter",
+        "en": "Twitter",
+        "zh": "推特",
+        "fr": "Twitter"
+    },
+
+    "instagram": {
+        "default": "Instagram",
+        "en": "Instagram",
+        "zh": "Instagram",
+        "fr": "Instagram"
+    },
+
+    "weibo": {
+        "default": "Weibo",
+        "en": "Weibo",
+        "zh": "微博",
+        "fr": "Weibo"
+    },
+
+    "name":{
+        "default": "HU Jiaming",
+        "en": "HU Jiaming",
+        "zh": "HU Jiaming",
+        "fr": "HU Jiaming"
+    },
+
+    "description": {
+        "default": "Building thoughtful products that bridge technology and humanity.",
+        "en": "Building thoughtful products that bridge technology and humanity.",
+        "zh": "用技术传递温度，以设计连接人心。",
+        "fr": "Créer des produits pensés pour les humains, où la technologie rencontre l’émotion."
+    }
+}

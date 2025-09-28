@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Navigator from './components/Navigator/Navigator.jsx'
 import Footer from './components/Footer/Footer.jsx'
@@ -31,8 +32,7 @@ function App() {
         onLanguageChange={handleLanguageChange}
       />
       
-      {/* Main content area - add your page content here */}
-      <main className="flex-grow-1">
+      <main className="flex-grow-1 bg-light">
         {/* Your page content will go here */}
         <div className="container mt-4">
           <h1>Welcome to My Portfolio</h1>

@@ -1,11 +1,13 @@
 /* Footer Styles */
-.footer {
-    margin-top: auto;
-    border-top: 3px solid var(--bs-primary);
+
+footer {
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    color: #000000;
 }
 
+
 .footer-title {
-    color: var(--bs-light);
+    /* color: var(--bs-light); */
     font-weight: 600;
     margin-bottom: 1rem;
     font-size: 1.1rem;
@@ -20,7 +22,7 @@
 }
 
 .footer-link {
-    color: #adb5bd;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 0.9rem;
@@ -32,7 +34,7 @@
 }
 
 .footer-contact p {
-    color: #adb5bd;
+    color: #000000;
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
 }
@@ -49,7 +51,7 @@
 }
 
 .footer-social-link {
-    color: #adb5bd;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 0.9rem;
@@ -68,25 +70,25 @@
 }
 
 .footer-description {
-    color: #adb5bd;
+    color: #000000;
     font-size: 0.9rem;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
 .footer-built-with {
-    color: #6c757d;
+    color: #000000;
     font-size: 0.8rem;
     font-style: italic;
 }
 
 .footer-divider {
-    border-color: #495057;
+    border-color: #000000;
     opacity: 0.5;
 }
 
 .footer-copyright {
-    color: #6c757d;
+    color: #000000;
     font-size: 0.9rem;
 }
 
@@ -116,11 +118,6 @@
         margin-right: 1rem;
         margin-bottom: 0.5rem;
     }
-}
-
-/* Dark theme consistency */
-.footer.bg-dark {
-    background-color: #212529 !important;
 }
 
 /* Hover effects for better UX */

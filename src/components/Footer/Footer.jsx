@@ -3,8 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
 
-function Footer({ language = 'en' }) {
+function Footer(Props) {
     const currentYear = new Date().getFullYear();
+    const currentLanguage = Props.language
     
     // Footer translations
     const translations = {
@@ -52,27 +53,27 @@ function Footer({ language = 'en' }) {
     };
 
     return (
-        <footer className="footer bg-dark text-light py-5 mt-5">
+        <footer className="py-3"  >
             <Container>
                 <Row>
                     {/* Quick Links */}
                     <Col md={3} className="mb-4">
                         <h5 className="footer-title mb-3">
-                            {translations.sections.quickLinks[language]}
+                            {translations.sections.quickLinks[currentLanguage]}
                         </h5>
                         <ul className="list-unstyled footer-links">
-                            <li><a href="#home" className="footer-link">{translations.links.home[language]}</a></li>
-                            <li><a href="#about" className="footer-link">{translations.links.about[language]}</a></li>
-                            <li><a href="#portfolio" className="footer-link">{translations.links.portfolio[language]}</a></li>
-                            <li><a href="#blog" className="footer-link">{translations.links.blog[language]}</a></li>
-                            <li><a href="#contact" className="footer-link">{translations.links.contact[language]}</a></li>
+                            <li><a href="#home" className="footer-link">{translations.links.home[currentLanguage]}</a></li>
+                            <li><a href="#about" className="footer-link">{translations.links.about[currentLanguage]}</a></li>
+                            <li><a href="#portfolio" className="footer-link">{translations.links.portfolio[currentLanguage]}</a></li>
+                            <li><a href="#blog" className="footer-link">{translations.links.blog[currentLanguage]}</a></li>
+                            <li><a href="#contact" className="footer-link">{translations.links.contact[currentLanguage]}</a></li>
                         </ul>
                     </Col>
 
                     {/* Contact Info */}
                     <Col md={3} className="mb-4">
                         <h5 className="footer-title mb-3">
-                            {translations.sections.contact[language]}
+                            {translations.sections.contact[currentLanguage]}
                         </h5>
                         <div className="footer-contact">
                             <p className="mb-2">
@@ -83,7 +84,7 @@ function Footer({ language = 'en' }) {
                             </p>
                             <p className="mb-2">
                                 <i className="fas fa-map-marker-alt me-2"></i>
-                                {translations.contactInfo.location[language]}
+                                {translations.contactInfo.location[currentLanguage]}
                             </p>
                         </div>
                     </Col>
@@ -91,7 +92,7 @@ function Footer({ language = 'en' }) {
                     {/* Social Links */}
                     <Col md={3} className="mb-4">
                         <h5 className="footer-title mb-3">
-                            {translations.sections.followMe[language]}
+                            {translations.sections.followMe[currentLanguage]}
                         </h5>
                         <div className="footer-social">
                             <a 
@@ -125,13 +126,13 @@ function Footer({ language = 'en' }) {
                     <Col md={3} className="mb-4">
                         <h5 className="footer-title mb-3">HU Jiaming</h5>
                         <p className="footer-description">
-                            {language === 'en' 
+                            {currentLanguage === 'en' 
                                 ? "Passionate developer creating amazing web experiences with modern technologies."
                                 : "热衷于使用现代技术创造出色网页体验的开发者。"
                             }
                         </p>
                         <p className="footer-built-with">
-                            {translations.builtWith[language]}
+                            {translations.builtWith[currentLanguage]}
                         </p>
                     </Col>
                 </Row>
@@ -141,7 +142,7 @@ function Footer({ language = 'en' }) {
                 <Row>
                     <Col className="text-center">
                         <p className="footer-copyright mb-0">
-                            {translations.copyright[language]}
+                            © 2025
                         </p>
                     </Col>
                 </Row>

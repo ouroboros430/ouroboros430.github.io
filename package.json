@@ -8,12 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "publish:gh-pages":"git subtree push --prefix dist origin gh-pages"
+    "publish:gh-pages": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "sass": "^1.93.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
