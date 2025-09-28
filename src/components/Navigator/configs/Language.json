@@ -41,6 +41,12 @@
         "zh": "联系",
         "fr": "Contact"
     },
+    "nav_button_experience": {
+        "default": "Experience",
+        "en": "Experience",
+        "zh": "经历",
+        "fr": "Expérience"
+    },
     "nav_button_github": {
         "default": "GitHub",
         "en": "GitHub",
