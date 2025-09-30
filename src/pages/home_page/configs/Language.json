@@ -72,8 +72,8 @@
         "fr": "Maintenant"
     },
     "master_degree":{
-        "default": "Master's Degree",
-        "en": "Master's Degree",
+        "default": "Master Degree",
+        "en": "Master Degree",
         "zh": "硕士研究生",
         "fr": "Master"
     },
@@ -90,8 +90,8 @@
         "fr": "Diplôme d'Ingénieur"
     },
     "bachelor_degree":{
-        "default": "Bachelor's Degree",
-        "en": "Bachelor's Degree",
+        "default": "Bachelor Degree",
+        "en": "Bachelor Degree",
         "zh": "学士学位",
         "fr": "Licence"
     },

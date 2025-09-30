@@ -208,10 +208,10 @@
   "education": [
     {
       "title": {
-        "en": "Master's Degree",
+        "en": "Master Degree",
         "zh": "硕士学位",
         "fr": "Master",
-        "default": "Master's Degree"
+        "default": "Master Degree"
       },
       "school": {
         "en": "Paris-Saclay University",
@@ -370,10 +370,10 @@
     },
     {
       "title": {
-        "en": "Bachelor's Degree",
+        "en": "Bachelor Degree",
         "zh": "学士学位",
         "fr": "Licence",
-        "default": "Bachelor's Degree"
+        "default": "Bachelor Degree"
       },
       "school": {
         "en": "Xidian University",
