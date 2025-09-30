@@ -5,8 +5,8 @@ import translations from './configs/Language.json';
 
 function Home({ language }) {
   return (
-    <Container-fluid className="py-5">
-      <Row className="justify-content-cent</div>er text-center">
+    <Container fluid className="py-5">
+      <Row className="justify-content-center text-center">
         <Col>
           <div>
             <h1 className="display-4 fw-bold mb-3 mt-2">HU Jiaming</h1>
@@ -23,15 +23,15 @@ function Home({ language }) {
             />
             <div className='text'>
               <h1 className="display-5">{translations.introductionContent[language]}</h1>
-              <div className='subtext'>
-                <span className="me-3 display-6">
-                  <i className="fa-solid fa-gears text-primary"></i> DevOps
+              <div className='subtext d-flex align-items-center flex-wrap'>
+                <span className="me-3 h3 d-flex align-items-center">
+                  <i className="fa-solid fa-gears text-primary me-2"></i> DevOps
                 </span>
-                <span className="me-3 display-6">
-                  <i className="fa-brands fa-docker text-info"></i> Kubernetes
+                <span className="me-3 h3 d-flex align-items-center">
+                  <i className="fa-brands fa-docker text-info me-2"></i> Kubernetes
                 </span>
-                <span className="me-3 display-6">
-                  <i className="fa-solid fa-robot text-warning"></i> GenAI
+                <span className="me-3 h3 d-flex align-items-center">
+                  <i className="fa-solid fa-robot text-warning me-2"></i> GenAI
                 </span>
               </div>
             </div>
@@ -128,7 +128,7 @@ function Home({ language }) {
           </Row>
         </Col>
       </Row>
-    </Container-fluid>
+    </Container>
   );
 }
 
