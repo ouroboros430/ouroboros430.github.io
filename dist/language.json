@@ -1,0 +1,30 @@
+{
+  "nav_button_home": {
+    "en": "Home",
+    "zh": "首页"
+  },
+  "nav_button_portfolio": {
+    "en": "Portfolio", 
+    "zh": "作品集"
+  },
+  "nav_button_projects": {
+    "en": "Projects",
+    "zh": "项目"
+  },
+  "nav_button_blog": {
+    "en": "Blog",
+    "zh": "博客"
+  },
+  "nav_button_photography": {
+    "en": "Photography",
+    "zh": "摄影"
+  },
+  "nav_button_skills": {
+    "en": "Skills",
+    "zh": "技能"
+  },
+  "nav_button_contact": {
+    "en": "Contact",
+    "zh": "联系"
+  }
+}
