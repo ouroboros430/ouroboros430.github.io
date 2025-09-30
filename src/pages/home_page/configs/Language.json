@@ -84,10 +84,10 @@
         "fr": "Systèmes embarqués et traitement de l'information"
     },
     "engineer_degree": {
-        "default": "Engineer",
-        "en": "Engineer",
+        "default": "Engineer Degree",
+        "en": "Engineer Degree",
         "zh": "工程师学位",
-        "fr": "Ingénieur"
+        "fr": "Diplôme d'Ingénieur"
     },
     "bachelor_degree":{
         "default": "Bachelor's Degree",

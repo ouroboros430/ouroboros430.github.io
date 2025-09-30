@@ -1,84 +1,104 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import './expericence_page.css';
+import translations from './configs/Language.json';
 
 function Experience({ language }) {
-  const content = {
-    en: {
-      title: "Professional Experience",
-      subtitle: "My journey in tech industry",
-      experiences: [
-        {
-          title: "Senior Software Engineer",
-          company: "Tech Company",
-          period: "2023 - Present",
-          description: "Leading development of scalable web applications and mentoring junior developers."
-        },
-        {
-          title: "Full-Stack Developer",
-          company: "Startup Inc.",
-          period: "2021 - 2023",
-          description: "Built end-to-end solutions using React, Node.js, and cloud technologies."
-        },
-        {
-          title: "Frontend Developer",
-          company: "Digital Agency",
-          period: "2020 - 2021",
-          description: "Created responsive and interactive user interfaces for various clients."
-        }
-      ]
-    },
-    zh: {
-      title: "职业经历",
-      subtitle: "我在科技行业的成长历程",
-      experiences: [
-        {
-          title: "高级软件工程师",
-          company: "科技公司",
-          period: "2023 - 至今",
-          description: "负责可扩展Web应用程序的开发，并指导初级开发人员。"
-        },
-        {
-          title: "全栈开发工程师",
-          company: "创业公司",
-          period: "2021 - 2023",
-          description: "使用React、Node.js和云技术构建端到端解决方案。"
-        },
-        {
-          title: "前端开发工程师",
-          company: "数字机构",
-          period: "2020 - 2021",
-          description: "为各种客户创建响应式和交互式用户界面。"
-        }
-      ]
-    }
-  };
 
-  const currentContent = content[language] || content.en;
+  const content = translations;
 
   return (
     <Container className="py-5">
       <Row className="justify-content-center mb-5">
         <Col lg={8} className="text-center">
-          <h1 className="display-5 fw-bold mb-3">{currentContent.title}</h1>
-          <p className="lead text-muted">{currentContent.subtitle}</p>
+          <h1 className="display-5 fw-bold mb-3">{content.title[language] || content.title.default}</h1>
+          <p className="lead text-muted">{content.subtitle[language] || content.subtitle.default}</p>
         </Col>
       </Row>
-      
-      <Row className="justify-content-center">
+
+      {/* Professional Experience Section */}
+      <Row className="justify-content-center mb-5">
         <Col lg={10}>
-          {currentContent.experiences.map((exp, index) => (
+          <h2 className="h3 mb-4 text-start">{content.workTitle[language] || content.workTitle.default}</h2>
+          {content.experiences.map((exp, index) => (
             <Card key={index} className="mb-4 shadow-sm">
               <Card.Body>
-                <Row>
-                  <Col md={8}>
-                    <Card.Title className="h4">{exp.title}</Card.Title>
-                    <Card.Subtitle className="mb-2 text-primary">{exp.company}</Card.Subtitle>
-                    <Card.Text>{exp.description}</Card.Text>
+                <Row className="mb-2">
+                  <Col lg={9} md={8} sm={12}>
+                    <Card.Title className="h4">{exp.title[language] || exp.title.default}</Card.Title>
                   </Col>
-                  <Col md={4} className="text-md-end">
-                    <span className="badge bg-secondary fs-6">{exp.period}</span>
+                  <Col lg={3} md={4} sm={12} className="text-lg-end text-md-end text-sm-start">
+                    <span className="badge fs-6 company-badge">{exp.period[language] || exp.period.default}</span>
                   </Col>
                 </Row>
+                <Card.Subtitle className="mb-2 company-subtitle">{exp.company[language] || exp.company.default}</Card.Subtitle>
+                <Card.Text>
+                  {Array.isArray(exp.description) ? (
+                    <ul className="mb-3">
+                      {exp.description.map((item, idx) => (
+                        <li key={idx}>{item[language] || item.default}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <div className="mb-3">{exp.description[language] || exp.description.default}</div>
+                  )}
+                  {exp.skills && (
+                    <div className="mt-3">
+                      {exp.skills.map((skill, idx) => (
+                        <span key={idx} className="badge bg-primary me-2 mb-1">
+                          {skill[language] || skill.default}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          ))}
+        </Col>
+      </Row>
+
+      {/* Education Section */}
+      <Row className="justify-content-center">
+        <Col lg={10}>
+          <h2 className="h3 mb-4 text-start">{content.educationTitle[language] || content.educationTitle.default}</h2>
+          {content.education.map((edu, index) => (
+            <Card key={index} className="mb-4 shadow-sm">
+              <Card.Body>
+                <Row className="mb-2">
+                  <Col lg={9} md={8} sm={12}>
+                    <Card.Title className="h4">{edu.title[language] || edu.title.default}</Card.Title>
+                  </Col>
+                  <Col lg={3} md={4} sm={12} className="text-lg-end text-md-end text-sm-start">
+                    <span className="badge bg-info fs-6">{edu.period[language] || edu.period.default}</span>
+                  </Col>
+                </Row>
+                <Card.Subtitle className="mb-2 text-success">{edu.school[language] || edu.school.default}</Card.Subtitle>
+                {edu.major && (
+                  <div className="mb-2">
+                    <strong>{edu.major[language] || edu.major.default}</strong>
+                  </div>
+                )}
+                <Card.Text>
+                  {Array.isArray(edu.description) ? (
+                    <ul className="mb-3">
+                      {edu.description.map((item, idx) => (
+                        <li key={idx}>{item[language] || item.default}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <div className="mb-3">{edu.description[language] || edu.description.default}</div>
+                  )}
+                  {edu.skills && (
+                    <div className="mt-3">
+                      {edu.skills.map((skill, idx) => (
+                        <span key={idx} className="badge bg-success me-2 mb-1">
+                          {skill[language] || skill.default}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </Card.Text>
               </Card.Body>
             </Card>
           ))}

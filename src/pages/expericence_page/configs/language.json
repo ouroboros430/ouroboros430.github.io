@@ -1,0 +1,456 @@
+{
+  "title": {
+    "en": "Experience & Education",
+    "zh": "经历与教育",
+    "fr": "Expérience & Éducation",
+    "default": "Experience & Education"
+  },
+  "subtitle": {
+    "en": "My professional journey and academic background",
+    "zh": "我的职业历程和学术背景",
+    "fr": "Mon parcours professionnel et ma formation académique",
+    "default": "My professional journey and academic background"
+  },
+  "workTitle": {
+    "en": "Professional Experience",
+    "zh": "工作经历",
+    "fr": "Expérience Professionnelle",
+    "default": "Professional Experience"
+  },
+  "educationTitle": {
+    "en": "Education",
+    "zh": "教育背景",
+    "fr": "Éducation",
+    "default": "Education"
+  },
+  "experiences": [
+    {
+      "title": {
+        "en": "DevOps Engineer",
+        "zh": "DevOps工程师",
+        "fr": "Ingénieur DevOps",
+        "default": "DevOps Engineer"
+      },
+      "company": {
+        "en": "Synopsys",
+        "zh": "新思科技",
+        "fr": "Synopsys",
+        "default": "Synopsys"
+      },
+      "period": {
+        "en": "2021 - Present",
+        "zh": "2021 - 至今",
+        "fr": "2021 - Présent",
+        "default": "2021 - Present"
+      },
+      "description": [
+        {
+          "en": "DevTools Development - Leading the development of developer tools and IDE integrations",
+          "zh": "DevTools开发 - 负责开发者工具和IDE集成的开发",
+          "fr": "Développement DevTools - Direction du développement d'outils de développement et d'intégrations IDE",
+          "default": "DevTools Development - Leading the development of developer tools and IDE integrations"
+        },
+        {
+          "en": "GenAI - Implementing AI-powered solutions for enterprise software development",
+          "zh": "GenAI - 为企业软件开发实施AI驱动的解决方案",
+          "fr": "GenAI - Implémentation de solutions alimentées par l'IA pour le développement logiciel d'entreprise",
+          "default": "GenAI - Implementing AI-powered solutions for enterprise software development"
+        },
+        {
+          "en": "Microservices - Designing and maintaining scalable microservice architectures",
+          "zh": "微服务 - 设计和维护可扩展的微服务架构",
+          "fr": "Microservices - Conception et maintenance d'architectures de microservices évolutives",
+          "default": "Microservices - Designing and maintaining scalable microservice architectures"
+        }
+      ],
+      "skills": [
+        {
+          "en": "Python",
+          "zh": "Python",
+          "fr": "Python",
+          "default": "Python"
+        },
+        {
+          "en": "JavaScript",
+          "zh": "JavaScript",
+          "fr": "JavaScript",
+          "default": "JavaScript"
+        },
+        {
+          "en": "Docker",
+          "zh": "Docker",
+          "fr": "Docker",
+          "default": "Docker"
+        },
+        {
+          "en": "Kubernetes",
+          "zh": "Kubernetes",
+          "fr": "Kubernetes",
+          "default": "Kubernetes"
+        },
+        {
+          "en": "AWS",
+          "zh": "AWS",
+          "fr": "AWS",
+          "default": "AWS"
+        },
+        {
+          "en": "Jenkins",
+          "zh": "Jenkins",
+          "fr": "Jenkins",
+          "default": "Jenkins"
+        },
+        {
+          "en": "React",
+          "zh": "React",
+          "fr": "React",
+          "default": "React"
+        },
+        {
+          "en": "Node.js",
+          "zh": "Node.js",
+          "fr": "Node.js",
+          "default": "Node.js"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Cyber Security Engineer",
+        "zh": "网络安全工程师",
+        "fr": "Ingénieur en Sécurité Informatique",
+        "default": "Cyber Security Engineer"
+      },
+      "company": {
+        "en": "Huawei",
+        "zh": "华为",
+        "fr": "Huawei",
+        "default": "Huawei"
+      },
+      "period": {
+        "en": "2018 - 2021",
+        "zh": "2018 - 2021",
+        "fr": "2018 - 2021",
+        "default": "2018 - 2021"
+      },
+      "description": [
+        {
+          "en": "Pentest - Conducting penetration testing on enterprise systems and applications",
+          "zh": "渗透测试 - 对企业系统和应用程序进行渗透测试",
+          "fr": "Pentest - Réalisation de tests de pénétration sur les systèmes et applications d'entreprise",
+          "default": "Pentest - Conducting penetration testing on enterprise systems and applications"
+        },
+        {
+          "en": "FUZZ Testing - Automated vulnerability discovery and security testing",
+          "zh": "FUZZ测试 - 自动化漏洞发现和安全测试",
+          "fr": "Test de FUZZ - Découverte automatisée de vulnérabilités et tests de sécurité",
+          "default": "FUZZ Testing - Automated vulnerability discovery and security testing"
+        },
+        {
+          "en": "Security Audit - Comprehensive security assessments and compliance reviews",
+          "zh": "安全审计 - 全面的安全评估和合规性审查",
+          "fr": "Audit de Sécurité - Évaluations de sécurité complètes et examens de conformité",
+          "default": "Security Audit - Comprehensive security assessments and compliance reviews"
+        },
+        {
+          "en": "5G Security - Research and implementation of 5G network security protocols",
+          "zh": "5G安全 - 5G网络安全协议的研究和实施",
+          "fr": "Sécurité 5G - Recherche et implémentation des protocoles de sécurité réseau 5G",
+          "default": "5G Security - Research and implementation of 5G network security protocols"
+        }
+      ],
+      "skills": [
+        {
+          "en": "Penetration Testing",
+          "zh": "渗透测试",
+          "fr": "Tests de Pénétration",
+          "default": "Penetration Testing"
+        },
+        {
+          "en": "FUZZ Testing",
+          "zh": "FUZZ测试",
+          "fr": "Tests de FUZZ",
+          "default": "FUZZ Testing"
+        },
+        {
+          "en": "Security Audit",
+          "zh": "安全审计",
+          "fr": "Audit de Sécurité",
+          "default": "Security Audit"
+        },
+        {
+          "en": "5G Security",
+          "zh": "5G安全",
+          "fr": "Sécurité 5G",
+          "default": "5G Security"
+        },
+        {
+          "en": "C/C++",
+          "zh": "C/C++",
+          "fr": "C/C++",
+          "default": "C/C++"
+        },
+        {
+          "en": "Network Security",
+          "zh": "网络安全",
+          "fr": "Sécurité Réseau",
+          "default": "Network Security"
+        },
+        {
+          "en": "Vulnerability Assessment",
+          "zh": "漏洞评估",
+          "fr": "Évaluation des Vulnérabilités",
+          "default": "Vulnerability Assessment"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": {
+        "en": "Master's Degree",
+        "zh": "硕士学位",
+        "fr": "Master",
+        "default": "Master's Degree"
+      },
+      "school": {
+        "en": "Paris-Saclay University",
+        "zh": "巴黎萨克雷大学",
+        "fr": "Université Paris-Saclay",
+        "default": "Paris-Saclay University"
+      },
+      "period": {
+        "en": "2017 - 2018",
+        "zh": "2017 - 2018",
+        "fr": "2017 - 2018",
+        "default": "2017 - 2018"
+      },
+      "major":{
+        "en": "Embedded Systems and Information Processing",
+        "zh": "嵌入式系统与信息处理",
+        "fr": "Systèmes embarqués et traitement de l'information",
+        "default": "Embedded Systems and Information Processing"
+      },
+      "description": [
+        {
+          "en": "Systèmes embarqués et traitement de l'information",
+          "zh": "嵌入式系统与信息处理",
+          "fr": "Systèmes embarqués et traitement de l'information",
+          "default": "Systèmes embarqués et traitement de l'information"
+        },
+        {
+          "en": "Specialized in embedded systems and signal processing",
+          "zh": "专攻嵌入式系统和信号处理",
+          "fr": "Spécialisé en systèmes embarqués et traitement du signal",
+          "default": "Specialized in embedded systems and signal processing"
+        },
+        {
+          "en": "Advanced study of information systems and data processing",
+          "zh": "信息系统和数据处理的深入学习",
+          "fr": "Étude approfondie des systèmes d'information et du traitement de données",
+          "default": "Advanced study of information systems and data processing"
+        }
+      ],
+      "skills": [
+        {
+          "en": "Embedded Systems",
+          "zh": "嵌入式系统",
+          "fr": "Systèmes Embarqués",
+          "default": "Embedded Systems"
+        },
+        {
+          "en": "Signal Processing",
+          "zh": "信号处理",
+          "fr": "Traitement du Signal",
+          "default": "Signal Processing"
+        },
+        {
+          "en": "MATLAB",
+          "zh": "MATLAB",
+          "fr": "MATLAB",
+          "default": "MATLAB"
+        },
+        {
+          "en": "ARM",
+          "zh": "ARM",
+          "fr": "ARM",
+          "default": "ARM"
+        },
+        {
+          "en": "FPGA",
+          "zh": "FPGA",
+          "fr": "FPGA",
+          "default": "FPGA"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Engineering Degree",
+        "zh": "工程师学位",
+        "fr": "Diplôme d'Ingénieur",
+        "default": "Engineering Degree"
+      },
+      "school": {
+        "en": "Polytech Paris-Saclay",
+        "zh": "巴黎萨克雷理工学院",
+        "fr": "Polytech Paris-Saclay",
+        "default": "Polytech Paris-Saclay"
+      },
+      "period": {
+        "en": "2015 - 2018",
+        "zh": "2015 - 2018",
+        "fr": "2015 - 2018",
+        "default": "2015 - 2018"
+      },
+      "major": {
+        "en": "Electronics and Computer Engineering",
+        "zh": "电子与计算机工程",
+        "fr": "Électronique et Génie Informatique",
+        "default": "Electronics and Computer Engineering"
+      },
+      "description": [
+        {
+          "en": "Electronics and Computer Engineering",
+          "zh": "电子与计算机工程",
+          "fr": "Électronique et Génie Informatique",
+          "default": "Electronics and Computer Engineering"
+        },
+        {
+          "en": "Dual degree program with Paris-Saclay University",
+          "zh": "与巴黎萨克雷大学的双学位项目",
+          "fr": "Programme de double diplôme avec l'Université Paris-Saclay",
+          "default": "Dual degree program with Paris-Saclay University"
+        },
+        {
+          "en": "Focus on electronic systems and computer engineering applications",
+          "zh": "专注于电子系统和计算机工程应用",
+          "fr": "Axé sur les systèmes électroniques et les applications du génie informatique",
+          "default": "Focus on electronic systems and computer engineering applications"
+        }
+      ],
+      "skills": [
+        {
+          "en": "Electronics",
+          "zh": "电子学",
+          "fr": "Électronique",
+          "default": "Electronics"
+        },
+        {
+          "en": "Computer Engineering",
+          "zh": "计算机工程",
+          "fr": "Génie Informatique",
+          "default": "Computer Engineering"
+        },
+        {
+          "en": "Circuit Design",
+          "zh": "电路设计",
+          "fr": "Conception de Circuits",
+          "default": "Circuit Design"
+        },
+        {
+          "en": "VHDL",
+          "zh": "VHDL",
+          "fr": "VHDL",
+          "default": "VHDL"
+        },
+        {
+          "en": "Microcontrollers",
+          "zh": "微控制器",
+          "fr": "Microcontrôleurs",
+          "default": "Microcontrollers"
+        },
+        {
+          "en": "C Programming",
+          "zh": "C语言编程",
+          "fr": "Programmation C",
+          "default": "C Programming"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Bachelor's Degree",
+        "zh": "学士学位",
+        "fr": "Licence",
+        "default": "Bachelor's Degree"
+      },
+      "school": {
+        "en": "Xidian University",
+        "zh": "西安电子科技大学",
+        "fr": "Université Xidian",
+        "default": "Xidian University"
+      },
+      "period": {
+        "en": "2012 - 2016",
+        "zh": "2012 - 2016",
+        "fr": "2012 - 2016",
+        "default": "2012 - 2016"
+      },
+      "major": {
+        "en": "Cyber Security",
+        "zh": "网络安全",
+        "fr": "Cyber sécurité",
+        "default": "Cyber Security"
+      },
+      "description": [
+        {
+          "en": "Information Security",
+          "zh": "信息安全",
+          "fr": "Sécurité de l'Information",
+          "default": "Information Security"
+        },
+        {
+          "en": "Comprehensive study of cybersecurity and cryptography",
+          "zh": "网络安全和密码学的全面学习",
+          "fr": "Étude complète de la cybersécurité et cryptographie",
+          "default": "Comprehensive study of cybersecurity and cryptography"
+        },
+        {
+          "en": "Network security protocols and system security analysis",
+          "zh": "网络安全协议和系统安全分析",
+          "fr": "Protocoles de sécurité réseau et analyse de sécurité système",
+          "default": "Network security protocols and system security analysis"
+        }
+      ],
+      "skills": [
+        {
+          "en": "Information Security",
+          "zh": "信息安全",
+          "fr": "Sécurité de l'Information",
+          "default": "Information Security"
+        },
+        {
+          "en": "Cryptography",
+          "zh": "密码学",
+          "fr": "Cryptographie",
+          "default": "Cryptography"
+        },
+        {
+          "en": "Network Protocols",
+          "zh": "网络协议",
+          "fr": "Protocoles Réseau",
+          "default": "Network Protocols"
+        },
+        {
+          "en": "System Security",
+          "zh": "系统安全",
+          "fr": "Sécurité Système",
+          "default": "System Security"
+        },
+        {
+          "en": "Ethical Hacking",
+          "zh": "道德黑客",
+          "fr": "Piratage Éthique",
+          "default": "Ethical Hacking"
+        },
+        {
+          "en": "Java",
+          "zh": "Java",
+          "fr": "Java",
+          "default": "Java"
+        }
+      ]
+    }
+  ]
+}
