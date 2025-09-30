@@ -52,11 +52,61 @@
 }
 
 .card-logo {
-    width: 200px;
-    height: 100px;
+    width: 80%;
+    max-width: 240px;
+    min-width: 60px;
+    height: auto;
+    max-height: 80px;
     object-fit: contain;
 }
 
-.hobby-heart {
-    color: #FF7F7F;
+
+/* 响应式卡片图标 */
+@media (max-width: 992px) {
+    .card-logo {
+        max-width: 100px;
+        max-height: 70px;
+    }
+    
+    /* 一行显示两个卡片 */
+    .col-md-3.home-card, .col-md-4.home-card {
+        flex: 0 0 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-logo {
+        width: 70%;
+        max-width: 80px;
+        max-height: 60px;
+    }
+}
+
+/* 当卡片一行只有一个时，两边留空 */
+@media (max-width: 768px) {
+    .col-md-3.home-card, .col-md-4.home-card {
+        max-width: 320px;
+        margin: 0 auto 1.5rem auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-logo {
+        width: 60%;
+        max-width: 60px;
+        max-height: 50px;
+    }
+    
+    /* 小屏幕时卡片不占满整个屏幕宽度 */
+    .col-md-3.home-card, .col-md-4.home-card {
+        max-width: 280px;
+        flex: 0 0 auto;
+        margin: 0 auto 1.5rem auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

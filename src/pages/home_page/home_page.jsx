@@ -41,7 +41,7 @@ function Home({ language }) {
       <Row className="justify-content-center mt-5">
         <Col md={8}>
           <Row>
-            <Col md={3} className="mb-4">
+            <Col md={3} className="home-card mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
                   <div className="mb-3">
@@ -62,7 +62,7 @@ function Home({ language }) {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={3} className="mb-4">
+            <Col md={3} className="home-card mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
                   <div className="mb-3">
@@ -83,7 +83,7 @@ function Home({ language }) {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={3} className="mb-4">
+            <Col md={3} className="home-card mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
                   <div className="mb-3">
@@ -104,21 +104,21 @@ function Home({ language }) {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={3} className="mb-4">
+            <Col md={3} className="home-card mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
                   <div className="mb-3">
                     <img 
                       src="/xidian.svg" 
-                      alt={translations.xidian_unibersity && translations.xidian_unibersity[language] || "西安电子科技大学"}
+                      alt={translations.xidian_unibersity && translations.xidian_unibersity[language]}
                       className="card-logo"
                     />
                   </div>
-                  <Card.Title>{translations.bachelor_degree && translations.bachelor_degree[language] || "学士学位"}</Card.Title>
+                  <Card.Title>{translations.bachelor_degree && translations.bachelor_degree[language]}</Card.Title>
                   <Card.Text>
-                    <strong>{translations.cyber_security && translations.cyber_security[language] || "信息安全"}</strong>
+                    <strong>{translations.cyber_security && translations.cyber_security[language]}</strong>
                     <br />
-                    <small className="text-muted">{translations.xidian_unibersity && translations.xidian_unibersity[language] || "西安电子科技大学"}</small>
+                    <small className="text-muted">{translations.xidian_unibersity && translations.xidian_unibersity[language]}</small>
                     <br />
                     <small className="text-muted">2016-2020</small>
                   </Card.Text>
