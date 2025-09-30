@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 import translations from './configs/Language.json';
 
 function Footer(Props) {
@@ -11,36 +12,37 @@ function Footer(Props) {
 
 
     return (
-        <footer className="py-3"  >
+        <footer className="footer">
             <Container>
-                <Row className="py-0">
+                <Row>
                     {/* Quick Links */}
-                    <Col md={3} className="mb-0">
-                        <h5 className="footer-title mb-3">
+                    <Col md={3}>
+                        <h5 className="footer-heading">
                             {translations.quickLinks?.[currentLanguage] || "Quick Links"}
                         </h5>
-                        <ul className="list-unstyled footer-links">
-                            <li><a href="#home" className="footer-link">{translations.home?.[currentLanguage] || 'Home'}</a></li>
-                            <li><a href="#projects" className="footer-link">{translations.projects?.[currentLanguage] || 'Projects'}</a></li>
-                            <li><a href="#experience" className="footer-link">{translations.experience?.[currentLanguage] || 'Experience'}</a></li>
-                            <li><a href="#skills" className="footer-link">{translations.skills?.[currentLanguage] || 'Skills'}</a></li>
-                            <li><a href="#photography" className="footer-link">{translations.photography?.[currentLanguage] || 'Photography'}</a></li>
-                        </ul>
+                        <div className="footer-list">
+                            <Link to="/" className="footer-item">{translations.home?.[currentLanguage] || 'Home'}</Link>
+                            <Link to="/projects" className="footer-item">{translations.projects?.[currentLanguage] || 'Projects'}</Link>
+                            <Link to="/experience" className="footer-item">{translations.experience?.[currentLanguage] || 'Experience'}</Link>
+                            <Link to="/skills" className="footer-item">{translations.skills?.[currentLanguage] || 'Skills'}</Link>
+                            <Link to="/photography" className="footer-item">{translations.photography?.[currentLanguage] || 'Photography'}</Link>
+                            <Link to="/blog" className="footer-item">{translations.blog?.[currentLanguage] || 'Blog'}</Link>
+                        </div>
                     </Col>
 
                     {/* Contact Info */}
-                    <Col md={3} className="mb-0">
-                        <h5 className="footer-title mb-3">
+                    <Col md={3}>
+                        <h5 className="footer-heading">
                             {translations.contact?.[currentLanguage] || "Contact"}
                         </h5>
-                        <div className="footer-contact">
-                            <p className="mb-2">
+                        <div>
+                            <p>
                                 <i className="fas fa-envelope me-2"></i>
-                                <a href={`mailto:${emailAddress}`} className="footer-link">
+                                <a href={`mailto:${emailAddress}`} className="footer-item">
                                     {emailAddress}
                                 </a>
                             </p>
-                            <p className="mb-2">
+                            <p>
                                 <i className="fas fa-map-marker-alt me-2"></i>
                                 {translations.location[currentLanguage]}
                             </p>
@@ -48,16 +50,16 @@ function Footer(Props) {
                     </Col>
 
                     {/* Social Links */}
-                    <Col md={3} className="mb-0">
-                        <h5 className="footer-title mb-3">
+                    <Col md={3}>
+                        <h5 className="footer-heading">
                             {translations.followMe[currentLanguage]}
                         </h5>
-                        <div className="footer-social">
+                        <div className="footer-list">
                             <a 
                                 href="https://github.com/ouroboros430" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
-                                className="footer-social-link me-3"
+                                className="footer-item"
                             >
                                 <i className="fab fa-github"></i> {translations.github[currentLanguage]}
                             </a>
@@ -65,7 +67,7 @@ function Footer(Props) {
                                 href="#linkedin" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
-                                className="footer-social-link me-3"
+                                className="footer-item"
                             >
                                 <i className="fab fa-linkedin"></i> {translations.linkedin[currentLanguage]}
                             </a>
@@ -73,7 +75,7 @@ function Footer(Props) {
                                 href="#twitter" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
-                                className="footer-social-link"
+                                className="footer-item"
                             >
                                 <i className="fab fa-twitter"></i> {translations.twitter[currentLanguage]}
                             </a>
@@ -81,19 +83,18 @@ function Footer(Props) {
                     </Col>
 
                     {/* About Me */}
-                    <Col md={3} className="mb-0">
-                        <h5 className="footer-title mb-3">HU Jiaming</h5>
-                        <p className="footer-description">
+                    <Col md={3}>
+                        <h5 className="footer-heading">HU Jiaming</h5>
+                        <p className="footer-text">
                             {translations.description[currentLanguage]}
                         </p>
                     </Col>
                 </Row>
 
-                {/* Copyright */}
-                <hr className="footer-divider mt-0" />
+                <hr className="footer-divider" />
                 <Row>
                     <Col className="text-center">
-                        <p className="footer-copyright mb-0">
+                        <p className="footer-text mb-0">
                             © {currentYear} {translations.copyright[currentLanguage]}
                         </p>
                     </Col>

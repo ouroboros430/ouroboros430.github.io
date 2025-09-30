@@ -1,0 +1,110 @@
+{
+    "softwareEngineer": {
+        "default": "Software Engineer",
+        "en": "Software Engineer",
+        "zh": "软件工程师",
+        "fr": "Ingénieur logiciel"
+    },
+    "introductionContent": {
+        "default": "Creating a better life through code",
+        "en": "Creating a better life through code",
+        "zh": "我致力于用代码创造美好生活",
+        "fr": "Créer une vie meilleure grâce au code"
+    },
+    "company_name":{
+        "default": "Synopsys",
+        "en": "Synopsys",
+        "zh": "新思科技",
+        "fr": "Synopsys"
+    },
+    "xidian_unibersity":{
+        "default": "Xidian University",
+        "en": "Xidian University",
+        "zh": "西安电子科技大学",
+        "fr": "Université Xidian"
+    },
+    "paris_saclay_university":{
+        "default": "Université Paris-Saclay",
+        "en": "Université Paris-Saclay",
+        "zh": "巴黎萨克雷大学",
+        "fr": "Université Paris-Saclay"
+    },
+    "polytech_paris_saclay":{
+        "default": "Polytech Paris-Saclay",
+        "en": "Polytech Paris-Saclay",
+        "zh": "巴黎萨克雷理工学院",
+        "fr": "Polytech Paris-Saclay"
+    },
+    "devops_engineer":{
+        "default": "DevOps Engineer",
+        "en": "DevOps Engineer",
+        "zh": "DevOps工程师",
+        "fr": "Ingénieur DevOps"
+    },
+    "dev_tools":{
+        "default": "DevTools",
+        "en": "DevTools",
+        "zh": "DevTools",
+        "fr": "DevTools"
+    },
+    "dev_ops":{
+        "default": "DevOps",
+        "en": "DevOps",
+        "zh": "DevOps",
+        "fr": "DevOps"
+    },
+    "gen_ai":{
+        "default": "GenAI",
+        "en": "GenAI",
+        "zh": "GenAI",
+        "fr": "GenAI"
+    },
+    "microservices":{
+        "default": "Microservices",
+        "en": "Microservices",
+        "zh": "微服务",
+        "fr": "Microservices"
+    },
+    "now": {
+        "default": "Now",
+        "en": "Now",
+        "zh": "至今",
+        "fr": "Maintenant"
+    },
+    "master_degree":{
+        "default": "Master's Degree",
+        "en": "Master's Degree",
+        "zh": "硕士研究生",
+        "fr": "Master"
+    },
+    "seti":{
+        "default": "Embedded Systems and Information Processing",
+        "en": "Embedded Systems and Information Processing",
+        "zh": "嵌入式系统与信息处理",
+        "fr": "Systèmes embarqués et traitement de l'information"
+    },
+    "engineer_degree": {
+        "default": "Engineer",
+        "en": "Engineer",
+        "zh": "工程师学位",
+        "fr": "Ingénieur"
+    },
+    "bachelor_degree":{
+        "default": "Bachelor's Degree",
+        "en": "Bachelor's Degree",
+        "zh": "学士学位",
+        "fr": "Licence"
+    },
+    "cyber_security":{
+        "default": "Cyber Security",
+        "en": "Cyber Security",
+        "zh": "信息安全",
+        "fr": "Cybersécurité"
+    },
+    "ece":{
+        "default": "Electronics and Computer Engineering",
+        "en": "Electronics and Computer Engineering",
+        "zh": "电子与计算机工程",
+        "fr": "Ingénierie électronique et informatique"
+    }
+}
