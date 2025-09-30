@@ -78,7 +78,7 @@ function Home({ language }) {
                     <br />
                     <small className="text-muted">{translations.paris_saclay_university && translations.paris_saclay_university[language]}</small>
                     <br />
-                    <small className="text-muted">2020-2022</small>
+                    <small className="text-muted">2017-2018</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -99,7 +99,7 @@ function Home({ language }) {
                     <br />
                     <small className="text-muted">{translations.polytech_paris_saclay && translations.polytech_paris_saclay[language]}</small>
                     <br />
-                    <small className="text-muted">2020-2022</small>
+                    <small className="text-muted">2015-2018</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -120,7 +120,7 @@ function Home({ language }) {
                     <br />
                     <small className="text-muted">{translations.xidian_unibersity && translations.xidian_unibersity[language]}</small>
                     <br />
-                    <small className="text-muted">2016-2020</small>
+                    <small className="text-muted">2012-2016</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
