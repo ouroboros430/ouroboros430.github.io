@@ -41,7 +41,7 @@ function Home({ language }) {
       <Row className="justify-content-center mt-5">
         <Col md={8}>
           <Row>
-            <Col md={4} className="mb-4">
+            <Col md={3} className="mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
                   <div className="mb-3">
@@ -62,61 +62,65 @@ function Home({ language }) {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4} className="mb-4">
+            <Col md={3} className="mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
+                  <div className="mb-3">
+                    <img 
+                      src="/paris-saclay.svg" 
+                      alt={translations.paris_saclay_university && translations.paris_saclay_university[language]}
+                      className="card-logo"
+                    />
+                  </div>
+                  <Card.Title>{translations.master_degree && translations.master_degree[language]}</Card.Title>
                   <Card.Text>
-                    <div className="mb-1">
-                      <div>
-                        <img 
-                          src="/paris-saclay.svg" 
-                          alt={translations.paris_saclay_university[language]}
-                          className="card-logo mb-2"
-                        />
-                      </div>
-                      <Card.Title className="mb-3">{translations.master_degree[language]}</Card.Title>
-                      <strong>{translations.seti[language]}</strong>
-                      <br />
-                      <small className="text-muted">{translations.paris_saclay_university[language]}</small>
-                      <br />
-                      <small className="text-muted">2017-2018</small>
-                      <br />
-                    </div>
-                    <div className='mb-1'>
-                      <div>
-                        <img 
-                          src="/polytech_paris-saclay.svg" 
-                          alt={translations.polytech_paris_saclay[language]}
-                          className="card-logo mb-2"
-                        />
-                      </div>
-                      <Card.Title className="mb-3">{translations.engineer_degree[language]}</Card.Title>
-                      <strong>{translations.ece[language]}</strong>
-                      <br />
-                      <small className="text-muted">{translations.polytech_paris_saclay[language]}</small>
-                    </div>
-                    <small className="text-muted">2015-2018</small>
+                    <strong>{translations.seti && translations.seti[language] || "Systèmes embarqués et traitement de l'information"}</strong>
+                    <br />
+                    <small className="text-muted">{translations.paris_saclay_university && translations.paris_saclay_university[language]}</small>
+                    <br />
+                    <small className="text-muted">2020-2022</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4} className="mb-4">
+            <Col md={3} className="mb-4">
+              <Card className="h-100 shadow-sm">
+                <Card.Body className="text-center">
+                  <div className="mb-3">
+                    <img 
+                      src="/polytech_paris-saclay.svg" 
+                      alt={translations.polytech_paris_saclay && translations.polytech_paris_saclay[language]}
+                      className="card-logo"
+                    />
+                  </div>
+                  <Card.Title>{translations.engineer_degree && translations.engineer_degree[language]}</Card.Title>
+                  <Card.Text>
+                    <strong>{translations.ece && translations.ece[language] || "Electronics and Computer Engineering"}</strong>
+                    <br />
+                    <small className="text-muted">{translations.polytech_paris_saclay && translations.polytech_paris_saclay[language]}</small>
+                    <br />
+                    <small className="text-muted">2020-2022</small>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={3} className="mb-4">
               <Card className="h-100 shadow-sm">
                 <Card.Body className="text-center">
                   <div className="mb-3">
                     <img 
                       src="/xidian.svg" 
-                      alt={translations.xidian_unibersity[language]}
+                      alt={translations.xidian_unibersity && translations.xidian_unibersity[language] || "西安电子科技大学"}
                       className="card-logo"
                     />
                   </div>
-                  <Card.Title>{translations.bachelor_degree[language]}</Card.Title>
+                  <Card.Title>{translations.bachelor_degree && translations.bachelor_degree[language] || "学士学位"}</Card.Title>
                   <Card.Text>
-                    <strong>{translations.cyber_security[language]}</strong>
+                    <strong>{translations.cyber_security && translations.cyber_security[language] || "信息安全"}</strong>
                     <br />
-                    <small className="text-muted">{translations.xidian_unibersity[language]}</small>
+                    <small className="text-muted">{translations.xidian_unibersity && translations.xidian_unibersity[language] || "西安电子科技大学"}</small>
                     <br />
-                    <small className="text-muted">2012-2016</small>
+                    <small className="text-muted">2016-2020</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
