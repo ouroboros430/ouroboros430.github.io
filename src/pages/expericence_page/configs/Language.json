@@ -89,10 +89,10 @@
           "default": "Kubernetes"
         },
         {
-          "en": "AWS",
-          "zh": "AWS",
-          "fr": "AWS",
-          "default": "AWS"
+          "en": "GenAI",
+          "zh": "GenAI",
+          "fr": "GenAI",
+          "default": "GenAI"
         },
         {
           "en": "Jenkins",
@@ -111,6 +111,18 @@
           "zh": "Node.js",
           "fr": "Node.js",
           "default": "Node.js"
+        },
+        {
+          "en": "C#",
+          "zh": "C#",
+          "fr": "C#",
+          "default": "C#"
+        },
+        {
+          "en": "Perl",
+          "zh": "Perl",
+          "fr": "Perl",
+          "default": "Perl"
         }
       ]
     },
@@ -271,10 +283,16 @@
           "default": "MATLAB"
         },
         {
-          "en": "ARM",
-          "zh": "ARM",
-          "fr": "ARM",
-          "default": "ARM"
+          "en": "DSP",
+          "zh": "数字信号处理",
+          "fr": "Traitement du Signal Numérique",
+          "default": "DSP"
+        },
+        {
+          "en": "Java",
+          "zh": "Java",
+          "fr": "Java",
+          "default": "Java"
         },
         {
           "en": "FPGA",
@@ -349,22 +367,40 @@
           "default": "Circuit Design"
         },
         {
-          "en": "VHDL",
-          "zh": "VHDL",
-          "fr": "VHDL",
-          "default": "VHDL"
+          "en": "Image Processing",
+          "zh": "图像处理",
+          "fr": "Traitement d'Image",
+          "default": "Image Processing"
         },
         {
-          "en": "Microcontrollers",
-          "zh": "微控制器",
-          "fr": "Microcontrôleurs",
-          "default": "Microcontrollers"
+          "en": "Automation",
+          "zh": "自动化",
+          "fr": "Automatique",
+          "default": "Automation"
         },
         {
           "en": "C Programming",
           "zh": "C语言编程",
           "fr": "Programmation C",
           "default": "C Programming"
+        },
+        {
+          "en": "Android",
+          "zh": "Android",
+          "fr": "Android",
+          "default": "Android"
+        },
+        {
+          "en": "Parallel computation",
+          "zh": "并行计算",
+          "fr": "Calcul parallèle",
+          "default": "Parallel computation"
+        },
+        {
+          "en": "Cuda",
+          "zh": "Cuda",
+          "fr": "Cuda",
+          "default": "Cuda"
         }
       ]
     },
@@ -439,16 +475,22 @@
           "default": "System Security"
         },
         {
-          "en": "Ethical Hacking",
-          "zh": "道德黑客",
-          "fr": "Piratage Éthique",
-          "default": "Ethical Hacking"
+          "zh": "操作系统",
+          "en": "Operating Systems",
+          "fr": "Systèmes d'Exploitation",
+          "default": "Operating Systems"
         },
         {
-          "en": "Java",
-          "zh": "Java",
-          "fr": "Java",
-          "default": "Java"
+          "en": "Communication Principles",
+          "zh": "通信原理",
+          "fr": "Principes de Communication",
+          "default": "Communication Principles"
+        },
+        {
+          "en": "C/C++",
+          "zh": "C/C++",
+          "fr": "C/C++",
+          "default": "C/C++"
         }
       ]
     }
