@@ -68,13 +68,13 @@ function Navigator(Props) {
                         >
                             {translations.nav_button_skills?.[currentLanguage] || 'Skills'}
                         </Nav.Link>
-                        <Nav.Link 
+                        {/* <Nav.Link 
                             as={Link} 
                             to="/blog" 
                             className={isActive('/blog') ? 'active' : ''}
                         >
                             {translations.nav_button_blog?.[currentLanguage] || 'Blog'}
-                        </Nav.Link>
+                        </Nav.Link> */}
                         <Nav.Link 
                             as={Link} 
                             to="/photography" 
