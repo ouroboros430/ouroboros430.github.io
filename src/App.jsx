@@ -48,10 +48,10 @@ function App() {
             <Route path="/experience" element={<Experience language={currentLanguage} />} />
             <Route path="/projects" element={<Projects language={currentLanguage} />} />
             <Route path="/skills" element={<Skills language={currentLanguage} />} />
-            <Route path="/blog" element={<Blog language={currentLanguage} />} />
+            {/* <Route path="/blog" element={<Blog language={currentLanguage} />} /> */}
             <Route path="/photography" element={<Photography language={currentLanguage} />} />
             <Route path="/contact" element={<Contact language={currentLanguage} />} />
-            <Route path="/resume" element={<Resume language={currentLanguage} />} />
+            {/* <Route path="/resume" element={<Resume language={currentLanguage} />} /> */}
           </Routes>
         </main>
         

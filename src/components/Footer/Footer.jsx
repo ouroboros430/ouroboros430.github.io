@@ -26,7 +26,7 @@ function Footer(Props) {
                             <Link to="/experience" className="footer-item">{translations.experience?.[currentLanguage] || 'Experience'}</Link>
                             <Link to="/skills" className="footer-item">{translations.skills?.[currentLanguage] || 'Skills'}</Link>
                             <Link to="/photography" className="footer-item">{translations.photography?.[currentLanguage] || 'Photography'}</Link>
-                            <Link to="/blog" className="footer-item">{translations.blog?.[currentLanguage] || 'Blog'}</Link>
+                            {/* <Link to="/blog" className="footer-item">{translations.blog?.[currentLanguage] || 'Blog'}</Link> */}
                         </div>
                     </Col>
 
@@ -64,20 +64,12 @@ function Footer(Props) {
                                 <i className="fab fa-github"></i> {translations.github[currentLanguage]}
                             </a>
                             <a 
-                                href="#linkedin" 
+                                href="https://www.linkedin.com/in/jiaming-hu-85aa98128/" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className="footer-item"
                             >
                                 <i className="fab fa-linkedin"></i> {translations.linkedin[currentLanguage]}
-                            </a>
-                            <a 
-                                href="#twitter" 
-                                target="_blank" 
-                                rel="noopener noreferrer" 
-                                className="footer-item"
-                            >
-                                <i className="fab fa-twitter"></i> {translations.twitter[currentLanguage]}
                             </a>
                         </div>
                     </Col>

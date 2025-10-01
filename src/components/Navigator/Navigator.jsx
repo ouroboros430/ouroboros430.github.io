@@ -91,9 +91,9 @@ function Navigator(Props) {
                         </Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link as={Link} to="/resume">
+                        {/* <Nav.Link as={Link} to="/resume">
                             {translations.nav_button_resume?.[currentLanguage] || 'Resume'}
-                        </Nav.Link>
+                        </Nav.Link> */}
                         <NavDropdown
                             title={translations.nav_button_language?.[currentLanguage] || 'Language'}
                             id="language-nav-dropdown"
