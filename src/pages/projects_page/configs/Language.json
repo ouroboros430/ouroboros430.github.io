@@ -228,7 +228,7 @@
       },
       "description": {
         "en": "An automated tool for creating new branches that automatically sets up configurations, code repositories, and Jenkins workflows.",
-        "zh": "自动新建分支的工具，会自动建立新的配置、代码仓库和Jenkins流程。",
+        "zh": "自动新建分支，配置、代码仓库和Jenkins流程的工具。",
         "fr": "Un outil automatisé pour créer de nouvelles branches qui configure automatiquement les configurations, dépôts de code et flux Jenkins.",
         "default": "An automated tool for creating new branches that automatically sets up configurations, code repositories, and Jenkins workflows."
       },
@@ -240,10 +240,10 @@
     },
     {
       "title": {
-        "en": "Product Config Check-in Flow Control",
-        "zh": "产品配置检入流程控制",
-        "fr": "Contrôle de Flux d'Enregistrement de Configuration Produit",
-        "default": "Product Config Check-in Flow Control"
+        "en": "Product Config Check-in Flow Control System",
+        "zh": "产品配置检入流程控制系统",
+        "fr": "Système de Contrôle de Flux d'Enregistrement de Configuration Produit",
+        "default": "Product Config Check-in Flow Control System"
       },
       "description": {
         "en": "A system that manages and controls the check-in process for product configurations, ensuring proper validation and approval workflows.",
@@ -260,7 +260,7 @@
     {
       "title": {
         "en": "GenAI Release Agent",
-        "zh": "基于GenAI的发布代理",
+        "zh": "基于GenAI的Release Agent",
         "fr": "Agent de Publication GenAI",
         "default": "GenAI Release Agent"
       },
