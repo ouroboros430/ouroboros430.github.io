@@ -1,0 +1,318 @@
+{
+  "title": {
+    "en": "My Projects",
+    "zh": "我的项目",
+    "fr": "Mes Projets",
+    "default": "My Projects"
+  },
+  "subtitle": {
+    "en": "Showcasing my technical skills and creativity",
+    "zh": "展示我的技术技能和创造力",
+    "fr": "Présentation de mes compétences techniques et de ma créativité",
+    "default": "Showcasing my technical skills and creativity"
+  },
+  "buttons": {
+    "demo": {
+      "en": "Demo",
+      "zh": "演示",
+      "fr": "Démo",
+      "default": "Demo"
+    },
+    "code": {
+      "en": "Code",
+      "zh": "代码",
+      "fr": "Code",
+      "default": "Code"
+    }
+  },
+  "categories": {
+    "Testing": {
+      "en": "Testing",
+      "zh": "测试",
+      "fr": "Tests",
+      "default": "Testing"
+    },
+    "DevOps": {
+      "en": "DevOps",
+      "zh": "开发运维",
+      "fr": "DevOps",
+      "default": "DevOps"
+    },
+    "AI/ML": {
+      "en": "AI/ML",
+      "zh": "人工智能/机器学习",
+      "fr": "IA/ML",
+      "default": "AI/ML"
+    }
+  },
+  "statuses": {
+    "Completed": {
+      "en": "Completed",
+      "zh": "完成",
+      "fr": "Terminé",
+      "default": "Completed"
+    },
+    "Active": {
+      "en": "Active",
+      "zh": "进行中",
+      "fr": "Actif",
+      "default": "Active"
+    }
+  },
+  "technologies": {
+    "Python": {
+      "en": "Python",
+      "zh": "Python",
+      "fr": "Python",
+      "default": "Python"
+    },
+    "GCOV": {
+      "en": "GCOV",
+      "zh": "GCOV",
+      "fr": "GCOV",
+      "default": "GCOV"
+    },
+    "Data Analysis": {
+      "en": "Data Analysis", 
+      "zh": "数据分析",
+      "fr": "Analyse de Données",
+      "default": "Data Analysis"
+    },
+    "Optimization Algorithms": {
+      "en": "Optimization Algorithms",
+      "zh": "优化算法",
+      "fr": "Algorithmes d'Optimisation",
+      "default": "Optimization Algorithms"
+    },
+    "Jenkins": {
+      "en": "Jenkins",
+      "zh": "Jenkins",
+      "fr": "Jenkins",
+      "default": "Jenkins"
+    },
+    "Git": {
+      "en": "Git",
+      "zh": "Git",
+      "fr": "Git",
+      "default": "Git"
+    },
+    "Shell Scripts": {
+      "en": "Shell Scripts",
+      "zh": "Shell脚本",
+      "fr": "Scripts Shell",
+      "default": "Shell Scripts"
+    },
+    "CI/CD": {
+      "en": "CI/CD",
+      "zh": "持续集成/持续部署",
+      "fr": "CI/CD",
+      "default": "CI/CD"
+    },
+    "Workflow Management": {
+      "en": "Workflow Management",
+      "zh": "工作流管理",
+      "fr": "Gestion de Flux de Travail",
+      "default": "Workflow Management"
+    },
+    "Validation Scripts": {
+      "en": "Validation Scripts",
+      "zh": "验证脚本",
+      "fr": "Scripts de Validation",
+      "default": "Validation Scripts"
+    },
+    "GenAI": {
+      "en": "GenAI",
+      "zh": "生成式AI",
+      "fr": "IA Générative",
+      "default": "GenAI"
+    },
+    "LLM": {
+      "en": "LLM",
+      "zh": "大语言模型",
+      "fr": "Grand Modèle de Langage",
+      "default": "LLM"
+    },
+    "Natural Language Processing": {
+      "en": "Natural Language Processing",
+      "zh": "自然语言处理",
+      "fr": "Traitement du Langage Naturel",
+      "default": "Natural Language Processing"
+    },
+    "Product Management": {
+      "en": "Product Management",
+      "zh": "产品管理",
+      "fr": "Gestion de Produit",
+      "default": "Product Management"
+    },
+    "LightRAG": {
+      "en": "LightRAG",
+      "zh": "LightRAG",
+      "fr": "LightRAG",
+      "default": "LightRAG"
+    },
+    "Vector Search": {
+      "en": "Vector Search",
+      "zh": "向量搜索",
+      "fr": "Recherche Vectorielle",
+      "default": "Vector Search"
+    },
+    "NLP": {
+      "en": "NLP",
+      "zh": "自然语言处理",
+      "fr": "TAL",
+      "default": "NLP"
+    },
+    "Ticket Management": {
+      "en": "Ticket Management",
+      "zh": "工单管理",
+      "fr": "Gestion de Tickets",
+      "default": "Ticket Management"
+    },
+    "Kubernetes": {
+      "en": "Kubernetes",
+      "zh": "Kubernetes",
+      "fr": "Kubernetes",
+      "default": "Kubernetes"
+    },
+    "Docker": {
+      "en": "Docker",
+      "zh": "Docker",
+      "fr": "Docker",
+      "default": "Docker"
+    },
+    "Containerization": {
+      "en": "Containerization",
+      "zh": "容器化",
+      "fr": "Conteneurisation",
+      "default": "Containerization"
+    },
+    "Microservices": {
+      "en": "Microservices",
+      "zh": "微服务",
+      "fr": "Microservices",
+      "default": "Microservices"
+    },
+    "Service Migration": {
+      "en": "Service Migration",
+      "zh": "服务迁移",
+      "fr": "Migration de Services",
+      "default": "Service Migration"
+    }
+  },
+  "projects": [
+    {
+      "title": {
+        "en": "GCOV Coverage Optimization Tool",
+        "zh": "GCOV覆盖率优化工具",
+        "fr": "Outil d'Optimisation de Couverture GCOV",
+        "default": "GCOV Coverage Optimization Tool"
+      },
+      "description": {
+        "en": "A tool that analyzes GCOV coverage data to find the minimal set of test cases that can cover all code coverage requirements.",
+        "zh": "根据GCOV的覆盖率数据找到最小的一组测试用例，可以覆盖所有的代码覆盖率要求的工具。",
+        "fr": "Un outil qui analyse les données de couverture GCOV pour trouver l'ensemble minimal de cas de test couvrant toutes les exigences de couverture.",
+        "default": "A tool that analyzes GCOV coverage data to find the minimal set of test cases that can cover all code coverage requirements."
+      },
+      "technologies": ["Python", "GCOV", "Data Analysis", "Optimization Algorithms"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "category": "Testing",
+      "status": "Completed"
+    },
+    {
+      "title": {
+        "en": "Branch Automation Tool",
+        "zh": "分支自动化工具",
+        "fr": "Outil d'Automatisation de Branche",
+        "default": "Branch Automation Tool"
+      },
+      "description": {
+        "en": "An automated tool for creating new branches that automatically sets up configurations, code repositories, and Jenkins workflows.",
+        "zh": "自动新建分支的工具，会自动建立新的配置、代码仓库和Jenkins流程。",
+        "fr": "Un outil automatisé pour créer de nouvelles branches qui configure automatiquement les configurations, dépôts de code et flux Jenkins.",
+        "default": "An automated tool for creating new branches that automatically sets up configurations, code repositories, and Jenkins workflows."
+      },
+      "technologies": ["Jenkins", "Perforce", "Python", "Shell Scripts", "CI/CD"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "category": "DevOps",
+      "status": "Completed"
+    },
+    {
+      "title": {
+        "en": "Product Config Check-in Flow Control",
+        "zh": "产品配置检入流程控制",
+        "fr": "Contrôle de Flux d'Enregistrement de Configuration Produit",
+        "default": "Product Config Check-in Flow Control"
+      },
+      "description": {
+        "en": "A system that manages and controls the check-in process for product configurations, ensuring proper validation and approval workflows.",
+        "zh": "建立产品配置检入的流程控制系统，确保正确的验证和审批工作流程。",
+        "fr": "Un système qui gère et contrôle le processus d'enregistrement des configurations de produit, assurant la validation et les flux d'approbation appropriés.",
+        "default": "A system that manages and controls the check-in process for product configurations, ensuring proper validation and approval workflows."
+      },
+      "technologies": ["Perforce", "Python", "Workflow Management", "Validation Scripts"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "category": "DevOps",
+      "status": "Completed"
+    },
+    {
+      "title": {
+        "en": "GenAI Release Agent",
+        "zh": "基于GenAI的发布代理",
+        "fr": "Agent de Publication GenAI",
+        "default": "GenAI Release Agent"
+      },
+      "description": {
+        "en": "A GenAI-powered Release Agent built on large language models to help Product Managers manage product releases efficiently.",
+        "zh": "基于GenAI大模型搭建的Release Agent，帮助产品经理管理产品的发布流程。",
+        "fr": "Un Agent de Publication alimenté par GenAI construit sur de grands modèles de langage pour aider les chefs de produit à gérer efficacement les versions de produits.",
+        "default": "A GenAI-powered Release Agent built on large language models to help Product Managers manage product releases efficiently."
+      },
+      "technologies": ["GenAI", "LLM", "Python", "Natural Language Processing", "Product Management"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "category": "AI/ML",
+      "status": "Active"
+    },
+    {
+      "title": {
+        "en": "LightRAG Similar Ticket Search System",
+        "zh": "基于LightRAG的相似工单搜索系统",
+        "fr": "Système de Recherche de Tickets Similaires LightRAG",
+        "default": "LightRAG Similar Ticket Search System"
+      },
+      "description": {
+        "en": "A search system built on large language models and LightRAG to help users find similar tickets and resolve issues efficiently.",
+        "zh": "基于大模型和LightRAG建立的相似工单搜索系统，帮助用户找到相似的工单，解决问题。",
+        "fr": "Un système de recherche construit sur de grands modèles de langage et LightRAG pour aider les utilisateurs à trouver des tickets similaires et résoudre les problèmes efficacement.",
+        "default": "A search system built on large language models and LightRAG to help users find similar tickets and resolve issues efficiently."
+      },
+      "technologies": ["LLM", "LightRAG", "Python", "Vector Search", "NLP", "Ticket Management"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "category": "AI/ML",
+      "status": "Completed"
+    },
+    {
+      "title": {
+        "en": "Web Services Kubernetes Migration",
+        "zh": "Web服务Kubernetes迁移",
+        "fr": "Migration de Services Web vers Kubernetes",
+        "default": "Web Services Kubernetes Migration"
+      },
+      "description": {
+        "en": "A comprehensive project to migrate multiple web services to Kubernetes clusters, including containerization, orchestration, and deployment automation.",
+        "zh": "将多个Web服务迁移到Kubernetes集群的综合项目，包括容器化、编排和部署自动化。",
+        "fr": "Un projet complet pour migrer plusieurs services web vers des clusters Kubernetes, incluant la conteneurisation, l'orchestration et l'automatisation du déploiement.",
+        "default": "A comprehensive project to migrate multiple web services to Kubernetes clusters, including containerization, orchestration, and deployment automation."
+      },
+      "technologies": ["Kubernetes", "Docker", "Containerization", "Microservices", "Service Migration", "Python"],
+      "demoUrl": "#",
+      "githubUrl": "#",
+      "category": "DevOps",
+      "status": "Active"
+    }
+  ]
+}

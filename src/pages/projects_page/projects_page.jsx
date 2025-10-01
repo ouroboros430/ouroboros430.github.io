@@ -1,98 +1,83 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button, Badge } from 'react-bootstrap';
+import projectsData from './configs/Language.json';
 
 function Projects({ language }) {
-  const content = {
-    en: {
-      title: "My Projects",
-      subtitle: "Showcasing my technical skills and creativity",
-      projects: [
-        {
-          title: "E-commerce Platform",
-          description: "A full-featured online shopping platform built with React, Node.js, and MongoDB.",
-          technologies: ["React", "Node.js", "MongoDB", "Express"],
-          demoUrl: "#",
-          githubUrl: "#"
-        },
-        {
-          title: "Portfolio Website",
-          description: "This responsive portfolio website showcasing my work and skills.",
-          technologies: ["React", "Bootstrap", "Vite"],
-          demoUrl: "#",
-          githubUrl: "#"
-        },
-        {
-          title: "Task Management App",
-          description: "A collaborative task management application with real-time updates.",
-          technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-          demoUrl: "#",
-          githubUrl: "#"
-        }
-      ]
-    },
-    zh: {
-      title: "我的项目",
-      subtitle: "展示我的技术技能和创造力",
-      projects: [
-        {
-          title: "电商平台",
-          description: "使用React、Node.js和MongoDB构建的全功能在线购物平台。",
-          technologies: ["React", "Node.js", "MongoDB", "Express"],
-          demoUrl: "#",
-          githubUrl: "#"
-        },
-        {
-          title: "作品集网站",
-          description: "这个响应式作品集网站展示了我的工作和技能。",
-          technologies: ["React", "Bootstrap", "Vite"],
-          demoUrl: "#",
-          githubUrl: "#"
-        },
-        {
-          title: "任务管理应用",
-          description: "具有实时更新功能的协作任务管理应用程序。",
-          technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-          demoUrl: "#",
-          githubUrl: "#"
-        }
-      ]
-    }
-  };
-
-  const currentContent = content[language] || content.en;
+  const content = projectsData;
 
   return (
     <Container className="py-5">
       <Row className="justify-content-center mb-5">
         <Col lg={8} className="text-center">
-          <h1 className="display-5 fw-bold mb-3">{currentContent.title}</h1>
-          <p className="lead text-muted">{currentContent.subtitle}</p>
+          <h1 className="display-5 fw-bold mb-3">{content.title[language] || content.title.default}</h1>
+          <p className="lead text-muted">{content.subtitle[language] || content.subtitle.default}</p>
         </Col>
       </Row>
       
       <Row>
-        {currentContent.projects.map((project, index) => (
+        {content.projects.map((project, index) => (
           <Col lg={4} md={6} key={index} className="mb-4">
             <Card className="h-100 shadow-sm">
               <Card.Body className="d-flex flex-column">
-                <Card.Title className="h4">{project.title}</Card.Title>
-                <Card.Text className="flex-grow-1">{project.description}</Card.Text>
+                <div className="d-flex justify-content-between align-items-start mb-2">
+                  <Card.Title className="h5">{project.title[language] || project.title.default}</Card.Title>
+                  <Badge 
+                    bg={project.status === 'Completed' ? 'success' : project.status === 'Active' ? 'primary' : 'warning'}
+                    className="ms-2"
+                  >
+                    {content.statuses[project.status] ? 
+                      (content.statuses[project.status][language] || content.statuses[project.status].default) : 
+                      project.status
+                    }
+                  </Badge>
+                </div>
+                
+                <Badge bg="secondary" className="mb-2 align-self-start">
+                  {content.categories[project.category] ? 
+                    (content.categories[project.category][language] || content.categories[project.category].default) : 
+                    project.category
+                  }
+                </Badge>
+                
+                <Card.Text className="flex-grow-1">
+                  {project.description[language] || project.description.default}
+                </Card.Text>
                 
                 <div className="mb-3">
                   {project.technologies.map((tech, techIndex) => (
-                    <span key={techIndex} className="badge bg-primary me-1 mb-1">
-                      {tech}
-                    </span>
+                    <Badge key={techIndex} bg="primary" className="me-1 mb-1">
+                      {content.technologies[tech] ? 
+                        (content.technologies[tech][language] || content.technologies[tech].default) : 
+                        tech
+                      }
+                    </Badge>
                   ))}
                 </div>
                 
                 <div className="mt-auto">
-                  <Button variant="outline-primary" size="sm" className="me-2">
-                    {language === 'zh' ? '演示' : 'Demo'}
-                  </Button>
-                  <Button variant="outline-secondary" size="sm">
-                    {language === 'zh' ? '代码' : 'Code'}
-                  </Button>
+                  {project.demoUrl && project.demoUrl !== '#' && (
+                    <Button 
+                      variant="outline-primary" 
+                      size="sm" 
+                      className="me-2"
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {content.buttons.demo[language] || content.buttons.demo.default}
+                    </Button>
+                  )}
+                  {project.githubUrl && project.githubUrl !== '#' && (
+                    <Button 
+                      variant="outline-secondary" 
+                      size="sm"
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {content.buttons.code[language] || content.buttons.code.default}
+                    </Button>
+                  )}
                 </div>
               </Card.Body>
             </Card>
