@@ -47,7 +47,7 @@
 @media (max-width: 768px) {
     .footer-heading {
         font-size: 1rem;
-        margin-bottom: 0.75rem;
+        margin-top: 0.75rem;
     }
     .footer-item,
     .footer-text {

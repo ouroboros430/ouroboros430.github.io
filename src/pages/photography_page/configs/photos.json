@@ -1,0 +1,162 @@
+{
+  "photos": [
+    {
+      "id": 1,
+      "src": "https://picsum.photos/800/600?random=1",
+      "thumbnail": "https://picsum.photos/300/200?random=1",
+      "title": {
+        "en": "Mountain Landscape",
+        "zh": "山景风光",
+        "fr": "Paysage de Montagne",
+        "default": "Mountain Landscape"
+      },
+      "category": "landscape",
+      "description": {
+        "en": "Beautiful mountain view at sunset with golden hour lighting",
+        "zh": "日落时分的美丽山景，金色时光照明",
+        "fr": "Belle vue de montagne au coucher du soleil avec éclairage doré",
+        "default": "Beautiful mountain view at sunset with golden hour lighting"
+      },
+      "date": "2024-01-15",
+      "camera": "Canon EOS R5",
+      "lens": "24-70mm f/2.8",
+      "settings": "f/8, 1/125s, ISO 100"
+    },
+    {
+      "id": 2,
+      "src": "https://picsum.photos/800/600?random=2",
+      "thumbnail": "https://picsum.photos/300/200?random=2",
+      "title": {
+        "en": "City Street",
+        "zh": "城市街道",
+        "fr": "Rue de la Ville",
+        "default": "City Street"
+      },
+      "category": "street",
+      "description": {
+        "en": "Urban life in motion during rush hour",
+        "zh": "高峰时段的城市生活动态",
+        "fr": "Vie urbaine en mouvement pendant l'heure de pointe",
+        "default": "Urban life in motion during rush hour"
+      },
+      "date": "2024-02-03",
+      "camera": "Sony A7 IV",
+      "lens": "35mm f/1.4",
+      "settings": "f/2.8, 1/60s, ISO 800"
+    },
+    {
+      "id": 3,
+      "src": "https://picsum.photos/800/600?random=3",
+      "thumbnail": "https://picsum.photos/300/200?random=3",
+      "title": {
+        "en": "Portrait Study",
+        "zh": "人像研究",
+        "fr": "Étude de Portrait",
+        "default": "Portrait Study"
+      },
+      "category": "portrait",
+      "description": {
+        "en": "Capturing authentic human emotion and expression",
+        "zh": "捕捉真实的人类情感和表达",
+        "fr": "Capturer l'émotion et l'expression humaines authentiques",
+        "default": "Capturing authentic human emotion and expression"
+      },
+      "date": "2024-01-20",
+      "camera": "Canon EOS R6",
+      "lens": "85mm f/1.2",
+      "settings": "f/1.8, 1/200s, ISO 320"
+    },
+    {
+      "id": 4,
+      "src": "https://picsum.photos/800/600?random=4",
+      "thumbnail": "https://picsum.photos/300/200?random=4",
+      "title": {
+        "en": "Modern Architecture",
+        "zh": "现代建筑",
+        "fr": "Architecture Moderne",
+        "default": "Modern Architecture"
+      },
+      "category": "architecture",
+      "description": {
+        "en": "Contemporary building design with clean geometric lines",
+        "zh": "具有简洁几何线条的现代建筑设计",
+        "fr": "Design de bâtiment contemporain avec des lignes géométriques épurées",
+        "default": "Contemporary building design with clean geometric lines"
+      },
+      "date": "2024-03-10",
+      "camera": "Nikon Z7 II",
+      "lens": "14-24mm f/2.8",
+      "settings": "f/11, 1/250s, ISO 64"
+    },
+    {
+      "id": 5,
+      "src": "https://picsum.photos/800/600?random=5",
+      "thumbnail": "https://picsum.photos/300/200?random=5",
+      "title": {
+        "en": "Forest Path",
+        "zh": "森林小径",
+        "fr": "Sentier Forestier",
+        "default": "Forest Path"
+      },
+      "category": "landscape",
+      "description": {
+        "en": "Peaceful forest trail with dappled sunlight",
+        "zh": "阳光斑驳的宁静森林小径",
+        "fr": "Sentier forestier paisible avec lumière tachetée",
+        "default": "Peaceful forest trail with dappled sunlight"
+      },
+      "date": "2024-04-05",
+      "camera": "Fujifilm X-T5",
+      "lens": "16-55mm f/2.8",
+      "settings": "f/5.6, 1/80s, ISO 200"
+    },
+    {
+      "id": 6,
+      "src": "https://picsum.photos/800/600?random=6",
+      "thumbnail": "https://picsum.photos/300/200?random=6",
+      "title": {
+        "en": "Night Market",
+        "zh": "夜市",
+        "fr": "Marché Nocturne",
+        "default": "Night Market"
+      },
+      "category": "street",
+      "description": {
+        "en": "Vibrant street food scene with colorful lights",
+        "zh": "色彩斑斓的夜市美食场景",
+        "fr": "Scène de nourriture de rue vibrante avec des lumières colorées",
+        "default": "Vibrant street food scene with colorful lights"
+      },
+      "date": "2024-02-18",
+      "camera": "Sony A7 IV",
+      "lens": "24-105mm f/4",
+      "settings": "f/4, 1/30s, ISO 1600"
+    }
+  ],
+  "categories": {
+    "en": {
+      "landscape": "Landscape",
+      "street": "Street Photography", 
+      "portrait": "Portrait",
+      "architecture": "Architecture"
+    },
+    "zh": {
+      "landscape": "风景摄影",
+      "street": "街头摄影",
+      "portrait": "人像摄影", 
+      "architecture": "建筑摄影"
+    },
+    "fr": {
+      "landscape": "Paysage",
+      "street": "Photographie de Rue",
+      "portrait": "Portrait",
+      "architecture": "Architecture"
+    },
+    "default": {
+      "landscape": "Landscape",
+      "street": "Street Photography",
+      "portrait": "Portrait", 
+      "architecture": "Architecture"
+    }
+  }
+}

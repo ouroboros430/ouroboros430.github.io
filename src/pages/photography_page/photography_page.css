@@ -1,0 +1,134 @@
+/* 摄影页面样式 */
+
+.photo-card {
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.photo-card img {
+  transition: transform 0.3s ease;
+}
+
+.photo-card:hover img {
+  transform: scale(1.05);
+}
+
+/* 弹窗样式 */
+.photo-modal .modal-content {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.photo-modal .modal-header {
+  background-color: #f8f9fa;
+  padding: 1rem 1.5rem;
+}
+
+.photo-modal .modal-body img {
+  border-radius: 8px;
+}
+
+.photo-modal .modal-footer {
+  background-color: #f8f9fa;
+  padding: 1rem 1.5rem;
+}
+
+/* 导航按钮样式 */
+.photo-modal .btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.photo-modal .btn:hover {
+  opacity: 1 !important;
+  transform: scale(1.1);
+}
+
+/* 分页样式 */
+.pagination {
+  margin-bottom: 0;
+}
+
+.pagination .page-link {
+  border-radius: 8px;
+  margin: 0 2px;
+  border: 1px solid #dee2e6;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .photo-card {
+    margin-bottom: 1rem;
+  }
+  
+  .photo-modal .modal-dialog {
+    margin: 0.5rem;
+  }
+  
+  .photo-modal .btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+  }
+  
+  .pagination {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .pagination .page-item {
+    margin: 2px;
+  }
+}
+
+/* 加载动画 */
+.photo-card img {
+  background-color: #f8f9fa;
+  background-image: linear-gradient(45deg, transparent 35%, rgba(255,255,255,.5) 50%, transparent 65%);
+  background-size: 20px 20px;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: -20px 0; }
+  100% { background-position: 20px 0; }
+}
+
+.photo-card img[src] {
+  animation: none;
+  background: none;
+}
+
+/* 网格布局优化 */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+@media (max-width: 576px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+}
