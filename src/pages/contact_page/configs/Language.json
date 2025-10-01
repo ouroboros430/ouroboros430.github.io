@@ -1,0 +1,122 @@
+{
+  "title": {
+    "en": "Get In Touch",
+    "zh": "联系我",
+    "fr": "Contactez-moi",
+    "default": "Get In Touch"
+  },
+  "subtitle": {
+    "en": "Let's discuss opportunities and collaborate on exciting projects",
+    "zh": "让我们讨论机会并在精彩的项目上合作",
+    "fr": "Discutons des opportunités et collaborons sur des projets passionnants",
+    "default": "Let's discuss opportunities and collaborate on exciting projects"
+  },
+  "description": {
+    "en": "I'm always open to new opportunities and interesting projects. Whether you have a question, want to discuss a potential collaboration, or just want to say hello, I'd love to hear from you!",
+    "zh": "我始终对新机会和有趣的项目持开放态度。无论您有问题、想讨论潜在的合作，还是只是想打个招呼，我都很乐意收到您的来信！",
+    "fr": "Je suis toujours ouvert aux nouvelles opportunités et aux projets intéressants. Que vous ayez une question, souhaitiez discuter d'une collaboration potentielle, ou simplement dire bonjour, j'aimerais avoir de vos nouvelles !",
+    "default": "I'm always open to new opportunities and interesting projects. Whether you have a question, want to discuss a potential collaboration, or just want to say hello, I'd love to hear from you!"
+  },
+  "contactMethods": [
+    {
+      "icon": "📧",
+      "title": {
+        "en": "Email",
+        "zh": "邮箱",
+        "fr": "E-mail",
+        "default": "Email"
+      },
+      "value": {
+        "en": "hu.jiaming@hotmail.com",
+        "zh": "hu.jiaming@hotmail.com",
+        "fr": "hu.jiaming@hotmail.com",
+        "default": "hu.jiaming@hotmail.com"
+      },
+      "action": {
+        "en": "Send Email",
+        "zh": "发送邮件",
+        "fr": "Envoyer un e-mail",
+        "default": "Send Email"
+      },
+      "link": "mailto:jiaming.hu.430@gmail.com"
+    },
+    {
+      "icon": "💼",
+      "title": {
+        "en": "LinkedIn",
+        "zh": "LinkedIn",
+        "fr": "LinkedIn",
+        "default": "LinkedIn"
+      },
+      "value": {
+        "en": "Connect with me professionally",
+        "zh": "与我建立专业联系",
+        "fr": "Connectez-vous avec moi professionnellement",
+        "default": "Connect with me professionally"
+      },
+      "action": {
+        "en": "View Profile",
+        "zh": "查看档案",
+        "fr": "Voir le profil",
+        "default": "View Profile"
+      },
+      "link": "https://www.linkedin.com/in/jiaming-hu-85aa98128/"
+    },
+    {
+      "icon": "🐙",
+      "title": {
+        "en": "GitHub",
+        "zh": "GitHub",
+        "fr": "GitHub",
+        "default": "GitHub"
+      },
+      "value": {
+        "en": "Check out my code",
+        "zh": "查看我的代码",
+        "fr": "Consultez mon code",
+        "default": "Check out my code"
+      },
+      "action": {
+        "en": "View Projects",
+        "zh": "查看项目",
+        "fr": "Voir les projets",
+        "default": "View Projects"
+      },
+      "link": "https://github.com/ouroboros430"
+    },
+    {
+      "icon": "/rednote-app.svg",
+      "title": {
+        "en": "Rednoter",
+        "zh": "小红书",
+        "fr": "Rednoter", 
+        "default": "Rednoter"
+      },
+      "value": {
+        "en": "Follow my lifestyle and tech sharing",
+        "zh": "关注我的生活和技术分享",
+        "fr": "Suivez mes partages de style de vie et de technologie",
+        "default": "Follow my lifestyle and tech sharing"
+      },
+      "action": {
+        "en": "Follow Me",
+        "zh": "关注我",
+        "fr": "Me suivre",
+        "default": "Follow Me"
+      },
+      "link": "https://xhslink.com/m/A3ikHUKuJRQ"
+    }
+  ],
+  "cta": {
+    "en": "Ready to start a conversation?",
+    "zh": "准备开始对话了吗？",
+    "fr": "Prêt à commencer une conversation ?",
+    "default": "Ready to start a conversation?"
+  },
+  "contactNow": {
+    "en": "Contact Now",
+    "zh": "立即联系",
+    "fr": "Contactez maintenant",
+    "default": "Contact Now"
+  }
+}

@@ -2,7 +2,7 @@
   "photos": [
     {
       "id": 1,
-      "src": "https://picsum.photos/800/600?random=1",
+      "src": "https://1drv.ms/i/c/867aed949bc6ca7b/EbVg3-X41blAjfUyf-A-qPoBqmlbDBLGnYSvhisL-ozDKA",
       "thumbnail": "https://picsum.photos/300/200?random=1",
       "title": {
         "en": "Mountain Landscape",
@@ -12,7 +12,7 @@
       },
       "category": "landscape",
       "description": {
-        "en": "Beautiful mountain view at sunset with golden hour lighting",
+        "en": "Beautiful mountain view at sunset with golden hour lighting",  
         "zh": "日落时分的美丽山景，金色时光照明",
         "fr": "Belle vue de montagne au coucher du soleil avec éclairage doré",
         "default": "Beautiful mountain view at sunset with golden hour lighting"
